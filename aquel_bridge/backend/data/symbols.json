@@ -1,0 +1,380 @@
+[
+  {
+    "id": "yes",
+    "label": "Yes",
+    "category": "Basic",
+    "emoji": "✅",
+    "color": "#4CAF50"
+  },
+  {
+    "id": "no",
+    "label": "No",
+    "category": "Basic",
+    "emoji": "❌",
+    "color": "#F44336"
+  },
+  {
+    "id": "help",
+    "label": "Help",
+    "category": "Basic",
+    "emoji": "🆘",
+    "color": "#FF9800"
+  },
+  {
+    "id": "please",
+    "label": "Please",
+    "category": "Basic",
+    "emoji": "🙏",
+    "color": "#9C27B0"
+  },
+  {
+    "id": "thankyou",
+    "label": "Thank you",
+    "category": "Basic",
+    "emoji": "🙏",
+    "color": "#3F51B5"
+  },
+  {
+    "id": "sorry",
+    "label": "Sorry",
+    "category": "Basic",
+    "emoji": "😔",
+    "color": "#607D8B"
+  },
+  {
+    "id": "i",
+    "label": "I",
+    "category": "People",
+    "emoji": "👤",
+    "color": "#2196F3"
+  },
+  {
+    "id": "you",
+    "label": "You",
+    "category": "People",
+    "emoji": "👉",
+    "color": "#00BCD4"
+  },
+  {
+    "id": "we",
+    "label": "We",
+    "category": "People",
+    "emoji": "👥",
+    "color": "#009688"
+  },
+  {
+    "id": "mom",
+    "label": "Mom",
+    "category": "People",
+    "emoji": "👩",
+    "color": "#E91E63"
+  },
+  {
+    "id": "dad",
+    "label": "Dad",
+    "category": "People",
+    "emoji": "👨",
+    "color": "#1976D2"
+  },
+  {
+    "id": "friend",
+    "label": "Friend",
+    "category": "People",
+    "emoji": "🤝",
+    "color": "#8BC34A"
+  },
+  {
+    "id": "want",
+    "label": "Want",
+    "category": "Actions",
+    "emoji": "🙋",
+    "color": "#FF5722"
+  },
+  {
+    "id": "go",
+    "label": "Go",
+    "category": "Actions",
+    "emoji": "🚶",
+    "color": "#4CAF50"
+  },
+  {
+    "id": "eat",
+    "label": "Eat",
+    "category": "Actions",
+    "emoji": "🍽️",
+    "color": "#FF9800"
+  },
+  {
+    "id": "drink",
+    "label": "Drink",
+    "category": "Actions",
+    "emoji": "🥤",
+    "color": "#2196F3"
+  },
+  {
+    "id": "sleep",
+    "label": "Sleep",
+    "category": "Actions",
+    "emoji": "😴",
+    "color": "#7C4DFF"
+  },
+  {
+    "id": "play",
+    "label": "Play",
+    "category": "Actions",
+    "emoji": "🎮",
+    "color": "#FF4081"
+  },
+  {
+    "id": "stop",
+    "label": "Stop",
+    "category": "Actions",
+    "emoji": "✋",
+    "color": "#F44336"
+  },
+  {
+    "id": "come",
+    "label": "Come",
+    "category": "Actions",
+    "emoji": "👋",
+    "color": "#8BC34A"
+  },
+  {
+    "id": "look",
+    "label": "Look",
+    "category": "Actions",
+    "emoji": "👀",
+    "color": "#00BCD4"
+  },
+  {
+    "id": "listen",
+    "label": "Listen",
+    "category": "Actions",
+    "emoji": "👂",
+    "color": "#9C27B0"
+  },
+  {
+    "id": "happy",
+    "label": "Happy",
+    "category": "Feelings",
+    "emoji": "😊",
+    "color": "#FFEB3B"
+  },
+  {
+    "id": "sad",
+    "label": "Sad",
+    "category": "Feelings",
+    "emoji": "😢",
+    "color": "#5C6BC0"
+  },
+  {
+    "id": "angry",
+    "label": "Angry",
+    "category": "Feelings",
+    "emoji": "😠",
+    "color": "#D32F2F"
+  },
+  {
+    "id": "scared",
+    "label": "Scared",
+    "category": "Feelings",
+    "emoji": "😨",
+    "color": "#455A64"
+  },
+  {
+    "id": "tired",
+    "label": "Tired",
+    "category": "Feelings",
+    "emoji": "😫",
+    "color": "#78909C"
+  },
+  {
+    "id": "pain",
+    "label": "Pain",
+    "category": "Feelings",
+    "emoji": "🤕",
+    "color": "#FF5252"
+  },
+  {
+    "id": "good",
+    "label": "Good",
+    "category": "Feelings",
+    "emoji": "👍",
+    "color": "#66BB6A"
+  },
+  {
+    "id": "bad",
+    "label": "Bad",
+    "category": "Feelings",
+    "emoji": "👎",
+    "color": "#EF5350"
+  },
+  {
+    "id": "water",
+    "label": "Water",
+    "category": "Food",
+    "emoji": "💧",
+    "color": "#29B6F6"
+  },
+  {
+    "id": "food",
+    "label": "Food",
+    "category": "Food",
+    "emoji": "🍜",
+    "color": "#FFA726"
+  },
+  {
+    "id": "milk",
+    "label": "Milk",
+    "category": "Food",
+    "emoji": "🥛",
+    "color": "#E3F2FD"
+  },
+  {
+    "id": "apple",
+    "label": "Apple",
+    "category": "Food",
+    "emoji": "🍎",
+    "color": "#EF5350"
+  },
+  {
+    "id": "bread",
+    "label": "Bread",
+    "category": "Food",
+    "emoji": "🍞",
+    "color": "#D4A76A"
+  },
+  {
+    "id": "cookie",
+    "label": "Cookie",
+    "category": "Food",
+    "emoji": "🍪",
+    "color": "#A1887F"
+  },
+  {
+    "id": "home",
+    "label": "Home",
+    "category": "Places",
+    "emoji": "🏠",
+    "color": "#42A5F5"
+  },
+  {
+    "id": "school",
+    "label": "School",
+    "category": "Places",
+    "emoji": "🏫",
+    "color": "#26A69A"
+  },
+  {
+    "id": "bathroom",
+    "label": "Bathroom",
+    "category": "Places",
+    "emoji": "🚿",
+    "color": "#80CBC4"
+  },
+  {
+    "id": "outside",
+    "label": "Outside",
+    "category": "Places",
+    "emoji": "🌳",
+    "color": "#66BB6A"
+  },
+  {
+    "id": "hospital",
+    "label": "Hospital",
+    "category": "Places",
+    "emoji": "🏥",
+    "color": "#EF5350"
+  },
+  {
+    "id": "hot",
+    "label": "Hot",
+    "category": "Descriptors",
+    "emoji": "🔥",
+    "color": "#FF7043"
+  },
+  {
+    "id": "cold",
+    "label": "Cold",
+    "category": "Descriptors",
+    "emoji": "🥶",
+    "color": "#90CAF9"
+  },
+  {
+    "id": "big",
+    "label": "Big",
+    "category": "Descriptors",
+    "emoji": "🔴",
+    "color": "#D32F2F"
+  },
+  {
+    "id": "small",
+    "label": "Small",
+    "category": "Descriptors",
+    "emoji": "🔵",
+    "color": "#1976D2"
+  },
+  {
+    "id": "more",
+    "label": "More",
+    "category": "Descriptors",
+    "emoji": "➕",
+    "color": "#43A047"
+  },
+  {
+    "id": "finished",
+    "label": "Finished",
+    "category": "Descriptors",
+    "emoji": "🏁",
+    "color": "#757575"
+  },
+  {
+    "id": "now",
+    "label": "Now",
+    "category": "Time",
+    "emoji": "⏰",
+    "color": "#FF6F00"
+  },
+  {
+    "id": "later",
+    "label": "Later",
+    "category": "Time",
+    "emoji": "⏳",
+    "color": "#7B1FA2"
+  },
+  {
+    "id": "today",
+    "label": "Today",
+    "category": "Time",
+    "emoji": "📅",
+    "color": "#0288D1"
+  },
+  {
+    "id": "phone",
+    "label": "Phone",
+    "category": "Objects",
+    "emoji": "📱",
+    "color": "#424242"
+  },
+  {
+    "id": "tv",
+    "label": "TV",
+    "category": "Objects",
+    "emoji": "📺",
+    "color": "#37474F"
+  },
+  {
+    "id": "book",
+    "label": "Book",
+    "category": "Objects",
+    "emoji": "📚",
+    "color": "#5D4037"
+  },
+  {
+    "id": "toy",
+    "label": "Toy",
+    "category": "Objects",
+    "emoji": "🧸",
+    "color": "#FF8F00"
+  }
+]
