@@ -24,9 +24,24 @@ export const visionApi = {
     const formData = new FormData();
     formData.append('file', file);
     return client.post('/api/vision/recognize', formData, {
-      headers: {
-        'Content-Type': 'multipart/form-data',
-      },
+      headers: { 'Content-Type': 'multipart/form-data' },
+    });
+  },
+  train: (name, file) => {
+    const formData = new FormData();
+    formData.append('name', name);
+    formData.append('file', file);
+    return client.post('/api/vision/train', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    });
+  },
+  recognizeSequence: (files) => {
+    const formData = new FormData();
+    files.forEach((file, index) => {
+      formData.append('files', file);
+    });
+    return client.post('/api/vision/recognize-sequence', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
     });
   },
 };
