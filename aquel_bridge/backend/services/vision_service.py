@@ -25,6 +25,16 @@ def extract_landmarks(image_bytes: bytes):
         if img is None:
             return None
             
+        # Resize large images to keep MediaPipe processing stable and fast
+        height, width = img.shape[:2]
+        max_dim = max(width, height)
+        MAX_ALLOWED_DIM = 800
+        if max_dim > MAX_ALLOWED_DIM:
+            scale = MAX_ALLOWED_DIM / float(max_dim)
+            new_w = int(width * scale)
+            new_h = int(height * scale)
+            img = cv2.resize(img, (new_w, new_h), interpolation=cv2.INTER_AREA)
+
         # Convert to RGB for MediaPipe
         img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         results = hands.process(img_rgb)
